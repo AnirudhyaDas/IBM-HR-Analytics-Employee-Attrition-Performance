@@ -9,6 +9,16 @@ Employee attrition, or turnover, is a critical concern for organizations, affect
 2. Identify Key Factors Influencing Turnover: Use data features such as job satisfaction, salary, and stock options to find correlations with attrition.
 3. Build Predictive Models: Train machine learning models to predict employee attrition and optimize them using hyperparameter tuning.
 
+# Table of Contents
+- Project Objectives
+- Dataset
+- Requirements
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Machine Learning Models
+- Conclusion
+- Contributing
+
 # Dataset
 - Source: The dataset contains various features related to employees, such as:
   -Age
@@ -107,7 +117,10 @@ The best SVC model reached an accuracy of 84%.
       'subsample': [0.8, 1.0]
   }
 ```
-XGBoost performed well with an accuracy of XX%.
+XGBoost performed well with an accuracy of 85.2%.
 
 # Conclusion
 The analysis reveals that factors such as age, monthly income, and job satisfaction significantly influence employee attrition. The XGBoost model performed the best in predicting attrition. With these insights, companies can implement targeted retention strategies for employees at risk of leaving.
+
+# Contributing
+Contributions are welcome! Please fork this repository and submit a pull request with any improvements or additional features.
